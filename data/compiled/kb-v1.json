@@ -1,0 +1,1160 @@
+{
+  "classification": "research-prototype-only",
+  "compiled_at": "2026-10-06T22:00:53.669759+00:00",
+  "interactions": [
+    {
+      "drug_a": "simvastatin",
+      "drug_b": "clarithromycin",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "source": "DDInter",
+          "source_file": "ddinter/ddinter_downloads_code_A.csv",
+          "source_record": "row:15941"
+        }
+      ],
+      "explanation": "DDInter classifies the Simvastatin and Clarithromycin pair as Major. This prototype finding requires clinician review.",
+      "level": "Major",
+      "rule_id": "PRX-DDI-001"
+    },
+    {
+      "drug_a": "warfarin",
+      "drug_b": "ibuprofen",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "source": "DDInter",
+          "source_file": "ddinter/ddinter_downloads_code_B.csv",
+          "source_record": "row:681"
+        }
+      ],
+      "explanation": "DDInter classifies the Warfarin and Ibuprofen pair as Major. This prototype finding requires clinician review.",
+      "level": "Major",
+      "rule_id": "PRX-DDI-002"
+    }
+  ],
+  "limitations": [
+    "Not medical advice or validated clinical decision support.",
+    "openFDA records are unvalidated and product labels may differ.",
+    "DDInter may be incomplete; absence of an interaction is not proof of safety.",
+    "Compiled coverage is intentionally limited to prototype medications and scenarios."
+  ],
+  "medications": {
+    "acetaminophen": {
+      "aliases": [
+        "paracetamol",
+        "tylenol"
+      ],
+      "allergy_terms": [
+        "acetaminophen"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 1000,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "N02BE",
+            "name": "Anilides"
+          },
+          {
+            "id": "N02AJ",
+            "name": "Opioids in combination with non-opioid analgesics"
+          },
+          {
+            "id": "N02AJ",
+            "name": "Opioids in combination with non-opioid analgesics"
+          }
+        ],
+        "ingredient_rxcui": "161",
+        "source_file": "rxclass/acetaminophen_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 584,
+        "sample_concepts": [
+          {
+            "name": "{100 (acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet [Excedrin]) / 24 (acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet [Excedrin PM Triple Action]) } Pack [Excedrin PM Triple Action Caplets and Excedrin Extra Strength Pain Reliever]",
+            "rxcui": "2047428",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 500 MG / chlorpheniramine maleate 2 MG / phenylephrine hydrochloride 5 MG Oral Tablet) / 1 (acetaminophen 500 MG / phenylephrine hydrochloride 5 MG Oral Tablet) } Pack",
+            "rxcui": "1101555",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML / doxylamine succinate 0.417 MG/ML Oral Solution) / 1 (acetaminophen 33.3 MG/ML / dextromethorphan hydrobromide 1 MG/ML Oral Solution) } Pack",
+            "rxcui": "1242575",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 500 MG / chlorpheniramine maleate 2 MG / dextromethorphan hydrobromide 15 MG Oral Tablet) / 1 (dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG Oral Capsule) } Pack",
+            "rxcui": "1250983",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution) / 1 (acetaminophen 32.5 MG/ML / diphenhydramine hydrochloride 1.25 MG/ML / phenylephrine hydrochloride 0.5 MG/ML Oral Solution) } Pack",
+            "rxcui": "1424850",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) / 1 (acetaminophen 650 MG / diphenhydramine hydrochloride 25 MG / phenylephrine hydrochloride 10 MG Granules for Oral Solution) } Pack",
+            "rxcui": "1428880",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG Oral Capsule) / 1 (acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / phenylephrine hydrochloride 5 MG Oral Capsule) } Pack",
+            "rxcui": "1648203",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 21.7 MG/ML / dextromethorphan hydrobromide 0.667 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution) / 1 (acetaminophen 21.7 MG/ML / diphenhydramine hydrochloride 0.833 MG/ML / phenylephrine hydrochloride 0.333 MG/ML Oral Solution) } Pack",
+            "rxcui": "1803669",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 500 MG / dextromethorphan hydrobromide 20 MG / guaifenesin 400 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) / 1 (acetaminophen 650 MG / dextromethorphan hydrobromide 20 MG / doxylamine succinate 12.5 MG / phenylephrine hydrochloride 10 MG Powder for Oral Solution) } Pack",
+            "rxcui": "1804384",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 250 MG / dextromethorphan hydrobromide 10 MG / guaifenesin 200 MG / phenylephrine hydrochloride 5 MG Oral Capsule) / 1 (acetaminophen 325 MG / dextromethorphan hydrobromide 10 MG / doxylamine succinate 6.25 MG / phenylephrine hydrochloride 5 MG Oral Capsule) } Pack",
+            "rxcui": "1927849",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{100 (acetaminophen 250 MG / aspirin 250 MG / caffeine 65 MG Oral Tablet) / 24 (acetaminophen 250 MG / aspirin 250 MG / diphenhydramine citrate 38 MG Oral Tablet) } Pack",
+            "rxcui": "2047427",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{1 (acetaminophen 32.5 MG/ML / dextromethorphan hydrobromide 1 MG/ML / triprolidine hydrochloride 0.125 MG/ML Oral Solution) / 1 (dextromethorphan hydrobromide 1 MG/ML / guaifenesin 20 MG/ML Oral Solution) } Pack",
+            "rxcui": "2287760",
+            "tty": "GPCK"
+          }
+        ],
+        "source_file": "rxnorm/acetaminophen_concepts_2026-10-06.json"
+      }
+    },
+    "amoxicillin": {
+      "aliases": [
+        "amoxil"
+      ],
+      "allergy_terms": [
+        "penicillin",
+        "amoxicillin"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 1000,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "A02BD",
+            "name": "Combinations for eradication of Helicobacter pylori"
+          },
+          {
+            "id": "J01CA",
+            "name": "Penicillins with extended spectrum"
+          }
+        ],
+        "ingredient_rxcui": "2262025",
+        "source_file": "rxclass/amoxicillin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 93,
+        "sample_concepts": [
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (omeprazole 20 MG Delayed Release Oral Capsule) } Pack [Omeclamox]",
+            "rxcui": "1291987",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{84 (amoxicillin 500 MG Oral Capsule) / 28 (vonoprazan 20 MG Oral Tablet) } Pack [Voquezna 14 Day DualPak 20;500]",
+            "rxcui": "2604802",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{56 (amoxicillin 500 MG Oral Capsule) / 28 (clarithromycin 500 MG Oral Tablet) / 28 (vonoprazan 20 MG Oral Tablet) } Pack [Voquezna 14 Day TriplePak 20;500;500]",
+            "rxcui": "2604804",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule [Trimox]) / 2 (clarithromycin 500 MG Oral Tablet [Biaxin]) / 2 (lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]) } Pack [Prevpac]",
+            "rxcui": "757969",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (omeprazole 20 MG Delayed Release Oral Capsule) } Pack",
+            "rxcui": "1291986",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{84 (amoxicillin 500 MG Oral Capsule) / 28 (vonoprazan 20 MG Oral Tablet) } Pack",
+            "rxcui": "2604801",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{56 (amoxicillin 500 MG Oral Capsule) / 28 (clarithromycin 500 MG Oral Tablet) / 28 (vonoprazan 20 MG Oral Tablet) } Pack",
+            "rxcui": "2604803",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (lansoprazole 30 MG Delayed Release Oral Capsule) } Pack",
+            "rxcui": "757968",
+            "tty": "GPCK"
+          },
+          {
+            "name": "amoxicillin 400 MG Oral Tablet [Amoxi-tabs]",
+            "rxcui": "1358974",
+            "tty": "SBD"
+          },
+          {
+            "name": "amoxicillin 150 MG Oral Tablet [Amoxi-tabs]",
+            "rxcui": "1359005",
+            "tty": "SBD"
+          },
+          {
+            "name": "amoxicillin 200 MG Oral Tablet [Amoxi-tabs]",
+            "rxcui": "1359009",
+            "tty": "SBD"
+          },
+          {
+            "name": "amoxicillin 100 MG Oral Tablet [Amoxi-tabs]",
+            "rxcui": "1360635",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/amoxicillin_concepts_2026-10-06.json"
+      }
+    },
+    "clarithromycin": {
+      "aliases": [
+        "biaxin"
+      ],
+      "allergy_terms": [
+        "macrolide",
+        "clarithromycin"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 500,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "J01FA",
+            "name": "Macrolides"
+          }
+        ],
+        "ingredient_rxcui": "21212",
+        "source_file": "rxclass/clarithromycin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 13,
+        "sample_concepts": [
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (omeprazole 20 MG Delayed Release Oral Capsule) } Pack [Omeclamox]",
+            "rxcui": "1291987",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{56 (amoxicillin 500 MG Oral Capsule) / 28 (clarithromycin 500 MG Oral Tablet) / 28 (vonoprazan 20 MG Oral Tablet) } Pack [Voquezna 14 Day TriplePak 20;500;500]",
+            "rxcui": "2604804",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule [Trimox]) / 2 (clarithromycin 500 MG Oral Tablet [Biaxin]) / 2 (lansoprazole 30 MG Delayed Release Oral Capsule [Prevacid]) } Pack [Prevpac]",
+            "rxcui": "757969",
+            "tty": "BPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (omeprazole 20 MG Delayed Release Oral Capsule) } Pack",
+            "rxcui": "1291986",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{56 (amoxicillin 500 MG Oral Capsule) / 28 (clarithromycin 500 MG Oral Tablet) / 28 (vonoprazan 20 MG Oral Tablet) } Pack",
+            "rxcui": "2604803",
+            "tty": "GPCK"
+          },
+          {
+            "name": "{4 (amoxicillin 500 MG Oral Capsule) / 2 (clarithromycin 500 MG Oral Tablet) / 2 (lansoprazole 30 MG Delayed Release Oral Capsule) } Pack",
+            "rxcui": "757968",
+            "tty": "GPCK"
+          },
+          {
+            "name": "clarithromycin 500 MG Oral Tablet [Biaxin]",
+            "rxcui": "205866",
+            "tty": "SBD"
+          },
+          {
+            "name": "clarithromycin 250 MG Oral Tablet",
+            "rxcui": "197516",
+            "tty": "SCD"
+          },
+          {
+            "name": "clarithromycin 500 MG Oral Tablet",
+            "rxcui": "197517",
+            "tty": "SCD"
+          },
+          {
+            "name": "clarithromycin 25 MG/ML Oral Suspension",
+            "rxcui": "240741",
+            "tty": "SCD"
+          },
+          {
+            "name": "clarithromycin 50 MG/ML Oral Suspension",
+            "rxcui": "309322",
+            "tty": "SCD"
+          },
+          {
+            "name": "24 HR clarithromycin 500 MG Extended Release Oral Tablet",
+            "rxcui": "359385",
+            "tty": "SCD"
+          }
+        ],
+        "source_file": "rxnorm/clarithromycin_concepts_2026-10-06.json"
+      }
+    },
+    "ibuprofen": {
+      "aliases": [
+        "advil",
+        "motrin"
+      ],
+      "allergy_terms": [
+        "ibuprofen",
+        "nsaid",
+        "non-steroidal anti-inflammatory"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 800,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "N02AJ",
+            "name": "Opioids in combination with non-opioid analgesics"
+          },
+          {
+            "id": "N02AJ",
+            "name": "Opioids in combination with non-opioid analgesics"
+          },
+          {
+            "id": "C01EB",
+            "name": "Other cardiac preparations"
+          },
+          {
+            "id": "G02CC",
+            "name": "Antiinflammatory products for vaginal administration"
+          },
+          {
+            "id": "M01AE",
+            "name": "Propionic acid derivatives"
+          },
+          {
+            "id": "M02AA",
+            "name": "Antiinflammatory preparations, non-steroids for topical use"
+          },
+          {
+            "id": "R02AX",
+            "name": "Other throat preparations"
+          },
+          {
+            "id": "N02AJ",
+            "name": "Opioids in combination with non-opioid analgesics"
+          }
+        ],
+        "ingredient_rxcui": "214627",
+        "source_file": "rxclass/ibuprofen_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 79,
+        "sample_concepts": [
+          {
+            "name": "famotidine 26.6 MG / ibuprofen 800 MG Oral Tablet [Duexis]",
+            "rxcui": "1100070",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Tablet [Counteract IB]",
+            "rxcui": "1101919",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Tablet [Proprinal]",
+            "rxcui": "1300267",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Tablet [Advil]",
+            "rxcui": "153008",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Tablet [Motrin]",
+            "rxcui": "201126",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 20 MG/ML Oral Suspension [Advil]",
+            "rxcui": "206878",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Tablet [Genpril]",
+            "rxcui": "206886",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 400 MG Oral Tablet [Ibu]",
+            "rxcui": "206905",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 600 MG Oral Tablet [Ibu]",
+            "rxcui": "206913",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 800 MG Oral Tablet [Ibu]",
+            "rxcui": "206917",
+            "tty": "SBD"
+          },
+          {
+            "name": "200 ML ibuprofen 4 MG/ML Injection [Caldolor]",
+            "rxcui": "2178275",
+            "tty": "SBD"
+          },
+          {
+            "name": "ibuprofen 200 MG Oral Capsule [Proprinal]",
+            "rxcui": "2673691",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/ibuprofen_concepts_2026-10-06.json"
+      }
+    },
+    "isotretinoin": {
+      "aliases": [
+        "accutane"
+      ],
+      "allergy_terms": [
+        "isotretinoin"
+      ],
+      "prototype_formulary": false,
+      "prototype_max_single_dose_mg": 80,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "D10AD",
+            "name": "Retinoids for topical use in acne"
+          },
+          {
+            "id": "D10BA",
+            "name": "Retinoids for treatment of acne"
+          }
+        ],
+        "ingredient_rxcui": "6064",
+        "source_file": "rxclass/isotretinoin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 44,
+        "sample_concepts": [
+          {
+            "name": "isotretinoin 10 MG Oral Capsule [Myorisan]",
+            "rxcui": "1242611",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 20 MG Oral Capsule [Myorisan]",
+            "rxcui": "1242613",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 40 MG Oral Capsule [Myorisan]",
+            "rxcui": "1242615",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 10 MG Oral Capsule [Absorica]",
+            "rxcui": "1299203",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 20 MG Oral Capsule [Absorica]",
+            "rxcui": "1300006",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 30 MG Oral Capsule [Absorica]",
+            "rxcui": "1300014",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 40 MG Oral Capsule [Absorica]",
+            "rxcui": "1300016",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 10 MG Oral Capsule [Zenatane]",
+            "rxcui": "1373333",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 20 MG Oral Capsule [Zenatane]",
+            "rxcui": "1373335",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 40 MG Oral Capsule [Zenatane]",
+            "rxcui": "1373337",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 25 MG Oral Capsule [Absorica]",
+            "rxcui": "1547563",
+            "tty": "SBD"
+          },
+          {
+            "name": "isotretinoin 35 MG Oral Capsule [Absorica]",
+            "rxcui": "1547567",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/isotretinoin_concepts_2026-10-06.json"
+      }
+    },
+    "lisinopril": {
+      "aliases": [
+        "zestril",
+        "prinivil"
+      ],
+      "allergy_terms": [
+        "lisinopril",
+        "ace inhibitor"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 40,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "C09AA",
+            "name": "ACE inhibitors, plain"
+          }
+        ],
+        "ingredient_rxcui": "29046",
+        "source_file": "rxclass/lisinopril_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 22,
+        "sample_concepts": [
+          {
+            "name": "lisinopril 2.5 MG Oral Tablet [Zestril]",
+            "rxcui": "104375",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 5 MG Oral Tablet [Zestril]",
+            "rxcui": "104376",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 10 MG Oral Tablet [Zestril]",
+            "rxcui": "104377",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 20 MG Oral Tablet [Zestril]",
+            "rxcui": "104378",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 1 MG/ML Oral Solution [Qbrelis]",
+            "rxcui": "1806890",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 10 MG Oral Tablet [Prinivil]",
+            "rxcui": "206765",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 20 MG Oral Tablet [Prinivil]",
+            "rxcui": "206766",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 40 MG Oral Tablet [Zestril]",
+            "rxcui": "206771",
+            "tty": "SBD"
+          },
+          {
+            "name": "lisinopril 30 MG Oral Tablet [Zestril]",
+            "rxcui": "213482",
+            "tty": "SBD"
+          },
+          {
+            "name": "hydrochlorothiazide 25 MG / lisinopril 20 MG Oral Tablet [Zestoretic]",
+            "rxcui": "823971",
+            "tty": "SBD"
+          },
+          {
+            "name": "hydrochlorothiazide 12.5 MG / lisinopril 20 MG Oral Tablet [Zestoretic]",
+            "rxcui": "823982",
+            "tty": "SBD"
+          },
+          {
+            "name": "hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet [Zestoretic]",
+            "rxcui": "823986",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/lisinopril_concepts_2026-10-06.json"
+      }
+    },
+    "metformin": {
+      "aliases": [
+        "glucophage"
+      ],
+      "allergy_terms": [
+        "metformin"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 1000,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BA",
+            "name": "Biguanides"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          },
+          {
+            "id": "A10BD",
+            "name": "Combinations of oral blood glucose lowering drugs"
+          }
+        ],
+        "ingredient_rxcui": "1043562",
+        "source_file": "rxclass/metformin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 134,
+        "sample_concepts": [
+          {
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 2.5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "rxcui": "1043567",
+            "tty": "SBD"
+          },
+          {
+            "name": "24 HR metformin hydrochloride 1000 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "rxcui": "1043574",
+            "tty": "SBD"
+          },
+          {
+            "name": "24 HR metformin hydrochloride 500 MG / saxagliptin 5 MG Extended Release Oral Tablet [Kombiglyze]",
+            "rxcui": "1043582",
+            "tty": "SBD"
+          },
+          {
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 1000 MG Oral Tablet [Jentadueto]",
+            "rxcui": "1243026",
+            "tty": "SBD"
+          },
+          {
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 500 MG Oral Tablet [Jentadueto]",
+            "rxcui": "1243033",
+            "tty": "SBD"
+          },
+          {
+            "name": "linagliptin 2.5 MG / metformin hydrochloride 850 MG Oral Tablet [Jentadueto]",
+            "rxcui": "1243040",
+            "tty": "SBD"
+          },
+          {
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin phosphate 100 MG Extended Release Oral Tablet [Janumet]",
+            "rxcui": "1243833",
+            "tty": "SBD"
+          },
+          {
+            "name": "24 HR metformin hydrochloride 1000 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]",
+            "rxcui": "1243843",
+            "tty": "SBD"
+          },
+          {
+            "name": "24 HR metformin hydrochloride 500 MG / sitagliptin phosphate 50 MG Extended Release Oral Tablet [Janumet]",
+            "rxcui": "1243848",
+            "tty": "SBD"
+          },
+          {
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 1000 MG Oral Tablet [Kazano]",
+            "rxcui": "1368391",
+            "tty": "SBD"
+          },
+          {
+            "name": "alogliptin 12.5 MG / metformin hydrochloride 500 MG Oral Tablet [Kazano]",
+            "rxcui": "1368398",
+            "tty": "SBD"
+          },
+          {
+            "name": "canagliflozin 150 MG / metformin hydrochloride 1000 MG Oral Tablet [Invokamet]",
+            "rxcui": "1545156",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/metformin_concepts_2026-10-06.json"
+      }
+    },
+    "simvastatin": {
+      "aliases": [
+        "zocor"
+      ],
+      "allergy_terms": [
+        "simvastatin",
+        "statin"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 40,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "A10BH",
+            "name": "Dipeptidyl peptidase 4 (DPP-4) inhibitors"
+          },
+          {
+            "id": "C10BA",
+            "name": "Combinations of various lipid modifying agents"
+          },
+          {
+            "id": "C10AA",
+            "name": "HMG CoA reductase inhibitors"
+          },
+          {
+            "id": "C10BA",
+            "name": "Combinations of various lipid modifying agents"
+          }
+        ],
+        "ingredient_rxcui": "1189803",
+        "source_file": "rxclass/simvastatin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 28,
+        "sample_concepts": [
+          {
+            "name": "simvastatin 10 MG Oral Tablet [Zocor]",
+            "rxcui": "104490",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 20 MG Oral Tablet [Zocor]",
+            "rxcui": "104491",
+            "tty": "SBD"
+          },
+          {
+            "name": "ezetimibe 10 MG / simvastatin 10 MG Oral Tablet [Vytorin]",
+            "rxcui": "1245420",
+            "tty": "SBD"
+          },
+          {
+            "name": "ezetimibe 10 MG / simvastatin 20 MG Oral Tablet [Vytorin]",
+            "rxcui": "1245430",
+            "tty": "SBD"
+          },
+          {
+            "name": "ezetimibe 10 MG / simvastatin 40 MG Oral Tablet [Vytorin]",
+            "rxcui": "1245441",
+            "tty": "SBD"
+          },
+          {
+            "name": "ezetimibe 10 MG / simvastatin 80 MG Oral Tablet [Vytorin]",
+            "rxcui": "1245449",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 40 MG Oral Tablet [Zocor]",
+            "rxcui": "152923",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 4 MG/ML Oral Suspension [Flolipid]",
+            "rxcui": "1944262",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 8 MG/ML Oral Suspension [Flolipid]",
+            "rxcui": "1944266",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 5 MG Oral Tablet [Zocor]",
+            "rxcui": "208220",
+            "tty": "SBD"
+          },
+          {
+            "name": "simvastatin 4 MG/ML Oral Suspension",
+            "rxcui": "1790679",
+            "tty": "SCD"
+          },
+          {
+            "name": "simvastatin 8 MG/ML Oral Suspension",
+            "rxcui": "1944264",
+            "tty": "SCD"
+          }
+        ],
+        "source_file": "rxnorm/simvastatin_concepts_2026-10-06.json"
+      }
+    },
+    "warfarin": {
+      "aliases": [
+        "coumadin",
+        "jantoven"
+      ],
+      "allergy_terms": [
+        "warfarin"
+      ],
+      "prototype_formulary": true,
+      "prototype_max_single_dose_mg": 10,
+      "rxclass": {
+        "classes": [
+          {
+            "id": "B01AA",
+            "name": "Vitamin K antagonists"
+          }
+        ],
+        "ingredient_rxcui": "11289",
+        "source_file": "rxclass/warfarin_atc_classes_2026-10-06.json"
+      },
+      "rxnorm": {
+        "concept_count": 26,
+        "sample_concepts": [
+          {
+            "name": "warfarin sodium 1 MG Oral Tablet [Coumadin]",
+            "rxcui": "855290",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 1 MG Oral Tablet [Jantoven]",
+            "rxcui": "855292",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 10 MG Oral Tablet [Coumadin]",
+            "rxcui": "855298",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 10 MG Oral Tablet [Jantoven]",
+            "rxcui": "855300",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 2 MG Oral Tablet [Coumadin]",
+            "rxcui": "855304",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 2 MG Oral Tablet [Jantoven]",
+            "rxcui": "855306",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 2.5 MG Oral Tablet [Coumadin]",
+            "rxcui": "855314",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 2.5 MG Oral Tablet [Jantoven]",
+            "rxcui": "855316",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 3 MG Oral Tablet [Coumadin]",
+            "rxcui": "855320",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 3 MG Oral Tablet [Jantoven]",
+            "rxcui": "855322",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 4 MG Oral Tablet [Jantoven]",
+            "rxcui": "855328",
+            "tty": "SBD"
+          },
+          {
+            "name": "warfarin sodium 5 MG Oral Tablet [Coumadin]",
+            "rxcui": "855334",
+            "tty": "SBD"
+          }
+        ],
+        "source_file": "rxnorm/warfarin_concepts_2026-10-06.json"
+      }
+    }
+  },
+  "policies": [
+    {
+      "author": "PramanRx prototype policy; not a source-authored clinical rule",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "section": "contraindications",
+          "source": "openFDA",
+          "source_file": "openfda/amoxicillin_labels_2026-10-06.json",
+          "source_record": "57477f96-ff03-67dc-e063-6294a90ad89d"
+        }
+      ],
+      "explanation": "Prototype matching of active allergy text to normalized medication groups.",
+      "id": "PRX-ALLERGY-001"
+    },
+    {
+      "author": "PramanRx prototype policy; not a source-authored clinical rule",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "section": "pregnancy",
+          "source": "openFDA",
+          "source_file": "openfda/isotretinoin_labels_2026-10-06.json",
+          "source_record": "1bcfc61e-1b15-60e8-e063-6294a90ab074"
+        }
+      ],
+      "explanation": "The proposed medication has label evidence indicating serious pregnancy risk.",
+      "id": "PRX-PREGNANCY-001"
+    },
+    {
+      "author": "PramanRx prototype policy; not a source-authored clinical rule",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "section": "renal_impairment",
+          "source": "openFDA",
+          "source_file": "openfda/metformin_labels_2026-10-06.json",
+          "source_record": "8c26dc1a-fba3-4266-bfaf-624b0941ef8b"
+        }
+      ],
+      "explanation": "Severe renal impairment requires avoidance or expert dose review in this prototype.",
+      "id": "PRX-RENAL-001"
+    },
+    {
+      "author": "PramanRx prototype policy; not a source-authored clinical rule",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "section": "dosage_and_administration",
+          "source": "openFDA",
+          "source_file": "openfda/acetaminophen_labels_2026-10-06.json",
+          "source_record": "ee8e3aa2-8550-41c7-9911-0723b3fb2f87"
+        }
+      ],
+      "explanation": "Conservative prototype maximum single-dose thresholds derived from label dosage sections.",
+      "id": "PRX-DOSE-001"
+    },
+    {
+      "author": "PramanRx prototype policy; not a source-authored clinical rule",
+      "evidence": [
+        {
+          "retrieved_at": "2026-10-06",
+          "source": "PramanRx prototype policy",
+          "source_record": "formulary-v1"
+        }
+      ],
+      "explanation": "The candidate is outside the prototype formulary and needs workflow review.",
+      "id": "PRX-FORMULARY-001"
+    }
+  ],
+  "schema_version": "pramanrx-kb/v1",
+  "sources": [
+    {
+      "path": "SOURCE_MANIFEST.md",
+      "sha256": "fa3d84b071467d340131ba290ec0f02a9ee6115121fb2e15df1e7b5276599b11"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_A.csv",
+      "sha256": "a22ca451d2b755ca2331886f7e00540c86f555f9f55704a59a19c691251f52e0"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_B.csv",
+      "sha256": "76de5115a55587f0e822e1096b684fd3ddde058fbefcbb19896df58820ace130"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_D.csv",
+      "sha256": "c0627ec39965dbe27829e4934cd20d71eb079f4e373287678737bba9423a306a"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_H.csv",
+      "sha256": "f0f925f0ba1ee68c4668d3e7a6732719b34623b22a0f5d017f9090e59f63c88e"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_L.csv",
+      "sha256": "f54f4486cc00344f8c86508c31c2ca3fad6d1d37ec3af5bcf609b4bbda5507ef"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_P.csv",
+      "sha256": "83f8c0edb20d09ef29b8500b48f9623e208379525688ade9e70a7df2d8749d55"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_R.csv",
+      "sha256": "1c39c3d4a6e41659b7a988538d7f363867592abc6f41a815de8746f6e2150574"
+    },
+    {
+      "path": "ddinter/ddinter_downloads_code_V.csv",
+      "sha256": "353973fb300453946aea95733e8fb52338e4b59426d2ce6ca318363d4f84f10a"
+    },
+    {
+      "path": "openfda/acetaminophen_labels_2026-10-06.json",
+      "sha256": "374505483fa8fbb2edf5aebfbc8301b2037427961cb5b5fdc8e309243d579bbd"
+    },
+    {
+      "path": "openfda/amoxicillin_labels_2026-10-06.json",
+      "sha256": "db14cb034e3b9ad0b2761b0ca2c9ee817c41d94d54c88bbcd7c414fd71ba4926"
+    },
+    {
+      "path": "openfda/clarithromycin_labels_2026-10-06.json",
+      "sha256": "611bfde144854f0d99a80626fab1a280173a9bceea4ba6f6ebb37fccc64cef7c"
+    },
+    {
+      "path": "openfda/ibuprofen_labels_2026-10-06.json",
+      "sha256": "73087b8e346c75f1a21e2c357983ef59edf0e667bfad8a012be2423b70bd7bc3"
+    },
+    {
+      "path": "openfda/isotretinoin_labels_2026-10-06.json",
+      "sha256": "0ecddf41bb6853b08e8a170a93cce9996af34506d666332c31f40d460082d251"
+    },
+    {
+      "path": "openfda/lisinopril_labels_2026-10-06.json",
+      "sha256": "3dc84005ea2e1630d2f11f672e9212f5354ea0e60d73b04dabaafd382b92c0db"
+    },
+    {
+      "path": "openfda/metformin_labels_2026-10-06.json",
+      "sha256": "9e7a9721a8c345c18c1fdbf61ac0c14794ca661aa55cc33c20138de1150f953f"
+    },
+    {
+      "path": "openfda/simvastatin_labels_2026-10-06.json",
+      "sha256": "37a784193848147c07892ea3c9e6df85123fe787b4dfcc2622fceed000609d7c"
+    },
+    {
+      "path": "openfda/warfarin_labels_2026-10-06.json",
+      "sha256": "7fa2d4f91220f03a3efe7f1eff79de93d269bef957cbddb72f3f30af5d305353"
+    },
+    {
+      "path": "rxclass/acetaminophen_atc_classes_2026-10-06.json",
+      "sha256": "b8c07115b39810cdfd74226a6c8591f9f85fa765b44f9bf269d63e9c4bc5e00f"
+    },
+    {
+      "path": "rxclass/amoxicillin_atc_classes_2026-10-06.json",
+      "sha256": "c76d893360648217c34296bf96796011b35ab92dd157ba4a22e468e517ecd477"
+    },
+    {
+      "path": "rxclass/clarithromycin_atc_classes_2026-10-06.json",
+      "sha256": "b63133b9be9e6a38a9d5850054460d5c75986b8dbdd2f5ce8d5fb5443640d11f"
+    },
+    {
+      "path": "rxclass/ibuprofen_atc_classes_2026-10-06.json",
+      "sha256": "057b0be854d099ff17e1482ac0cdbc424a752deb5e8f1c50eee2d82ea7c7b29a"
+    },
+    {
+      "path": "rxclass/isotretinoin_atc_classes_2026-10-06.json",
+      "sha256": "594b21d017d130a598a85e6e912274035ae1a526a2023cfc817a94d0d5f26f27"
+    },
+    {
+      "path": "rxclass/lisinopril_atc_classes_2026-10-06.json",
+      "sha256": "9ccf68c2445c1d72632ca388f0eb9ac4ca08a44b07941d09d3d154086ba58cc8"
+    },
+    {
+      "path": "rxclass/metformin_atc_classes_2026-10-06.json",
+      "sha256": "6e25c15ea20ef2fab5e0967d24d51bedbb72a36e4f3d3036a4afcb374dbff01c"
+    },
+    {
+      "path": "rxclass/simvastatin_atc_classes_2026-10-06.json",
+      "sha256": "e24004d904a2ea5a2df1406c2ffe9eaa027d20563b08b674ab5cef742f34f68f"
+    },
+    {
+      "path": "rxclass/warfarin_atc_classes_2026-10-06.json",
+      "sha256": "c6642a4d3520776f555ce5f4c08e6a73eb48b335b168808577505d7816e25ad2"
+    },
+    {
+      "path": "rxnorm/acetaminophen_concepts_2026-10-06.json",
+      "sha256": "23d85dcd3ded1084f0fbc034aa25773d90735c565235509fda9c786111294c3a"
+    },
+    {
+      "path": "rxnorm/amoxicillin_concepts_2026-10-06.json",
+      "sha256": "0c89c80b24e1a10f5452858348070e6980952458882016dcb838e3978df4d765"
+    },
+    {
+      "path": "rxnorm/clarithromycin_concepts_2026-10-06.json",
+      "sha256": "6bd6c7f2efbff9dba350a915372782f54ad197ca9bf0c71ef4f74cdb23114a8a"
+    },
+    {
+      "path": "rxnorm/ibuprofen_concepts_2026-10-06.json",
+      "sha256": "ceaf3e69c6b95220b243836452097db73c516b892e84031a211f6a1e9c23ab9f"
+    },
+    {
+      "path": "rxnorm/isotretinoin_concepts_2026-10-06.json",
+      "sha256": "d65f3276a8687900b5321d17692645e36e83b313d4932f27c6c5f477904c0cf6"
+    },
+    {
+      "path": "rxnorm/lisinopril_concepts_2026-10-06.json",
+      "sha256": "2a6231d486de54851cfd4810b06b5fc2fe0c81ccf08439b107e08f889be1fc4e"
+    },
+    {
+      "path": "rxnorm/metformin_concepts_2026-10-06.json",
+      "sha256": "7995f10c293d2302adc4f0895c8a8000f175cf0a9890d30c9f49511c1cb603fe"
+    },
+    {
+      "path": "rxnorm/simvastatin_concepts_2026-10-06.json",
+      "sha256": "0f4b1209114ae68f3401b6e7e71292dae1714db6b82280fb649641895276bc11"
+    },
+    {
+      "path": "rxnorm/warfarin_concepts_2026-10-06.json",
+      "sha256": "764d011930e4e46c6af149cef89362c7626d46bda065ad936fec228f3e10cbf6"
+    },
+    {
+      "path": "rxterms/rxterms_allconcepts_2026-10-06.json",
+      "sha256": "6e39ad5b5258907661d77ab2dd544f3e0bd54aab87cda88bac18ee71b41fa27b"
+    }
+  ],
+  "transformation_version": "compile-kb/1.1.0",
+  "valid_until": "2027-01-04T22:00:53.669759+00:00",
+  "version": "2026.10.06-prototype.1"
+}

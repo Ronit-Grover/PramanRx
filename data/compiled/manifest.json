@@ -1,0 +1,8 @@
+{
+  "algorithm": "Ed25519",
+  "artifact": "kb-v1.json",
+  "public_key": "pramanrx-ed25519-public.pem",
+  "sha256": "05990aa8bc1ef97d32958f9ca4fe0022b06433b5759d5f59ff47da6430c23590",
+  "signature": "kb-v1.sig",
+  "source_integrity_verified": true
+}
