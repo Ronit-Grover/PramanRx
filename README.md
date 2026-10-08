@@ -8,6 +8,10 @@ The AI recommendation is always treated as untrusted input. PramanRx freezes tha
 
 PramanRx does not diagnose, prescribe, replace clinician judgment, or make an AI model trustworthy. It is not clinically validated, certified, or approved for patient care.
 
+## Product Preview
+
+![PramanRx clinical recommendation verification workspace](docs/assets/pramanrx-verification-workspace.png)
+
 ## Core Trust Boundary
 
 ```text
